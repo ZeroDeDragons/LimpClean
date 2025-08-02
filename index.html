@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Meta Tags para SEO -->
+  <title>LimpClean | Limpeza Doméstica e Manutenção em [Sua Cidade]</title>
+  <meta name="description" content="Serviços profissionais de limpeza residencial e manutenção em Setúbal. Orçamento rápido, equipe qualificada.">
+  <meta name="keywords" content="limpeza, doméstica, manutenção, faxina, Setúbal, serviços residenciais">
+  
+  <!-- Open Graph (para compartilhamento em redes sociais) -->
+  <meta property="og:title" content="LimpClean - Limpeza e Manutenção Profissional">
+  <meta property="og:description" content="Soluções completas para sua casa em Setúbal.">
+  
+  <!-- Fontes (troquei para uma mais "limpa" e moderna) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap (versão light) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  
+  <!-- Favicon (adicione um ícone profissional!) -->
+  
+  
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <!-- Nome/logo da empresa -->
+      <a class="navbar-brand" href="#Inicio">Nome da Empresa</a>
+
+      <!-- Botão hamburguer: só aparece quando a tela é menor que "lg" -->
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuLateral"
+        aria-controls="menuLateral">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu lateral (só aparece no botão hamburguer) -->
+      <div class="offcanvas offcanvas-end bg-white" tabindex="-1" id="menuLateral" aria-labelledby="menuLateralLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="menuLateralLabel">Menu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
+        </div>
+
+        <div class="offcanvas-body">
+          <ul class="navbar-nav ms-auto text-end">
+            <li class="nav-item"><a class="nav-link link-dark" href="#Inicio">Início</a></li>
+            <li class="nav-item"><a class="nav-link link-dark" href="#Sobre_nos">Sobre Nós</a></li>
+            <li class="nav-item"><a class="nav-link link-dark" href="#Limpezas">Limpezas</a></li>
+            <li class="nav-item"><a class="nav-link link-dark" href="#Manutencoes">Manutenções</a></li>
+            <li class="nav-item"><a class="nav-link link-dark" href="#Desentupimentos">Desentupimentos</a></li>
+            <li class="nav-item"><a class="nav-link link-dark" href="#Contatos">Contatos</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Início -->
+  <header id="Inicio"
+    class="position-relative d-flex justify-content-center align-items-center text-white text-center p-5"
+    style="height:90vh; overflow:hidden;">
+
+    <!-- Fundo embaçado -->
+    <div class="bg-filtro position-absolute top-0 start-0 w-100 h-100"></div>
+
+    <!-- Conteúdo -->
+    <div class="col-12 text-center conteudo container position-relative">
+      <h1 class="display-4">Bem-vindo à Nossa Empresa</h1>
+      <p class="lead">Especialistas em limpeza, manutenção e desentupimentos</p>
+      <a href="#Sobre_nos" class="btn btn-light btn-lg mt-3">Conheça Mais</a>
+    </div>
+
+  </header>
+
+  <!-- Seções de Serviços -->
+  <main class="container my-5" id="Opcoes">
+
+    <!-- Sobre Nós -->
+    <section id="Sobre_nos" class="mb-5">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma empresa nova focada em oferecer serviços com qualidade e confiança.</p>
+    </section>
+
+    <div class="row text-center">
+      <!-- LIMPEZAS -->
+      <div class="col-12 mb-4" id="Limpezas">
+        <div class="d-flex flex-column flex-md-row align-items-center card altura-fixa">
+          <div class="card-body p-0">
+            <img src="Cozinha.avif" alt="Limpeza" class="img-fluid h-100 clipped-img">
+          </div>
+          <div class="card-body">
+            <h3><i class="bi bi-bucket-fill me-2"></i>Limpezas</h3>
+            <p>Serviços de limpeza profissional para casas e empresas.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- MANUTENÇÕES -->
+      <div class="col-12 mb-4" id="Manutencoes">
+        <div class="d-flex flex-column flex-md-row align-items-center card altura-fixa">
+          <div class="card-body p-0">
+            <img src="Cozinha.avif" alt="Manutenções" class="img-fluid h-100 clipped-img">
+          </div>
+          <div class="card-body">
+            <h3><i class="bi bi-tools me-2"></i>Manutenções</h3>
+            <p>Manutenção geral preventiva e corretiva.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESENTUPIMENTOS -->
+      <div class="col-12 mb-4" id="Desentupimentos">
+        <div class="d-flex flex-column flex-md-row align-items-center card altura-fixa">
+          <div class="card-body p-0">
+            <img src="Cozinha.avif" alt="Desentupimentos" class="img-fluid h-100 clipped-img">
+          </div>
+          <div class="card-body">
+            <h3><i class="bi bi-water me-2"></i>Desentupimentos</h3>
+            <p>Desentupimento rápido e eficiente de canos e ralos.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Contatos -->
+      <section id="Contatos" class="bg-light text-center p-5">
+        <h2>Fale Conosco</h2>
+        <p>Email: contato@empresa.com</p>
+        <p>Telefone: (99) 99999-9999</p>
+      </section>
+
+      <!-- Rodapé -->
+      <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2025 - Todos os direitos reservados</p>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
